@@ -1,6 +1,8 @@
 #[macro_use]
 pub mod data_structures;
 pub mod application;
+pub mod recursive;
+pub mod find;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
